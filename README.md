@@ -3,12 +3,12 @@ This work proposes a silent and efficient Oblivious Transfer expansion protocol 
 
 
 ## Dependencies
-This code utilizes SIMD instruction and requires an architecture compatible with such operations. 
-The only other dependency is the [haraka](https://github.com/kste/haraka) hash function which is **already included** in the code.
+This code utilizes SIMD instruction and requires an architecture compatible with such operations. The only other dependency is the [haraka](https://github.com/kste/haraka) hash function which is **already included** in the code.
 
 ## Compilation
-This code was compiled in Windows using Visual Studio 2022 and the **Microsoft Visual C++** compiler. 
-The code should work on any OS using any compiler. The source files are located in the OneWayGC_OTgen folder. For adequate performance use the O2 flag when compiling. Some additional flags may be necessary to enable use of SIMD instructions.
+This code was compiled in Windows using Visual Studio 2022 and the **Microsoft Visual C++** compiler. The code should work on any OS using any compiler. The source files are located in the OneWayGC_OTgen folder. The relevan files are "OneWayGC_OTgen.cpp", "haraka.cpp", "haraka.h" and "utils.h". The other files are Visual Studio configuration files and are not needed if using another program or compiler.
+
+For adequate performance use the **O2 flag** when compiling. Some additional flags may be necessary to enable use of SIMD instructions.
 
 ## Executable
 An existing executable is avaialable in the x64/Release folder, but for best results we suggest compiling the project on your own for your specific architecture.
