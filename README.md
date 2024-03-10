@@ -8,4 +8,7 @@ The only other dependency is the [haraka](https://github.com/kste/haraka) hash f
 
 ## Compilation
 This code was compiled in Windows using Visual Studio 2022 and the **Microsoft Visual C++** compiler. 
-The code should work on any OS using any compiler. For adequate performance use the O2 flag when compiling. Some additional flags may be necessary to enable use of SIMD instructions.
+The code should work on any OS using any compiler. The source files are located in the OneWayGC_OTgen folder. For adequate performance use the O2 flag when compiling. Some additional flags may be necessary to enable use of SIMD instructions.
+
+## Executable
+An existing executable is avaialable in "x64/Release/" but for best results we sujest compiling the project on your own for your specific architecture.
