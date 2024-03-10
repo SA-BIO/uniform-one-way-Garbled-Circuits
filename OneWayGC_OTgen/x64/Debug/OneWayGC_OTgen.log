@@ -1,6 +1,0 @@
-﻿  haraka.cpp
-  OneWayGC_OTgen.cpp
-C:\Users\niki1\Desktop\Paper_2_OT\Code\MainCode\OneWayGC_OTgen\OneWayGC_OTgen\OneWayGC_OTgen.cpp(90,35): warning C4805: '^': unsafe mix of type 'int' and type 'bool' in operation
-C:\Users\niki1\Desktop\Paper_2_OT\Code\MainCode\OneWayGC_OTgen\OneWayGC_OTgen\OneWayGC_OTgen.cpp(91,20): warning C4806: '^': unsafe operation: no value of type 'bool' promoted to type 'int' can equal the given constant
-  Generating Code...
-  OneWayGC_OTgen.vcxproj -> C:\Users\niki1\Desktop\Paper_2_OT\Code\MainCode\OneWayGC_OTgen\x64\Debug\OneWayGC_OTgen.exe
