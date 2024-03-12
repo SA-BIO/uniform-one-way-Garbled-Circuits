@@ -12,3 +12,6 @@ For adequate performance use the **O2 flag** when compiling. Some additional fla
 
 ## Executable
 An existing executable is avaialable in the x64/Release folder, but for best results we suggest compiling the project on your own for your specific architecture.
+
+## Disclaimer
+The code in this repository is for academic purposes and not suited for production environments. The random sampling functionality and the base OT generation algorithm will have to be adapted for secure and proper usage.
